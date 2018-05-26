@@ -13,6 +13,9 @@
 		34F4717F20B5675B0034B371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F4717E20B5675B0034B371 /* Assets.xcassets */; };
 		34F4718220B5675B0034B371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F4718020B5675B0034B371 /* LaunchScreen.storyboard */; };
 		34F4718520B5675B0034B371 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F4718420B5675B0034B371 /* main.m */; };
+		34F4719020B568570034B371 /* NSData+DES.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F4718F20B568570034B371 /* NSData+DES.m */; };
+		34F4719320B569310034B371 /* NSData+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F4719220B569310034B371 /* NSData+HexString.m */; };
+		34F4719620B56CEA0034B371 /* NSString+HexData.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F4719520B56CEA0034B371 /* NSString+HexData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		34F4718120B5675B0034B371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34F4718320B5675B0034B371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34F4718420B5675B0034B371 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34F4718E20B568570034B371 /* NSData+DES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+DES.h"; sourceTree = "<group>"; };
+		34F4718F20B568570034B371 /* NSData+DES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+DES.m"; sourceTree = "<group>"; };
+		34F4719120B569310034B371 /* NSData+HexString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+HexString.h"; sourceTree = "<group>"; };
+		34F4719220B569310034B371 /* NSData+HexString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+HexString.m"; sourceTree = "<group>"; };
+		34F4719420B56CEA0034B371 /* NSString+HexData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+HexData.h"; sourceTree = "<group>"; };
+		34F4719520B56CEA0034B371 /* NSString+HexData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HexData.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 		34F4717420B567590034B371 /* Decipher */ = {
 			isa = PBXGroup;
 			children = (
+				34F4719120B569310034B371 /* NSData+HexString.h */,
+				34F4719220B569310034B371 /* NSData+HexString.m */,
+				34F4719420B56CEA0034B371 /* NSString+HexData.h */,
+				34F4719520B56CEA0034B371 /* NSString+HexData.m */,
+				34F4718E20B568570034B371 /* NSData+DES.h */,
+				34F4718F20B568570034B371 /* NSData+DES.m */,
 				34F4717520B567590034B371 /* AppDelegate.h */,
 				34F4717620B567590034B371 /* AppDelegate.m */,
 				34F4717820B567590034B371 /* ViewController.h */,
@@ -142,7 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				34F4717A20B567590034B371 /* ViewController.m in Sources */,
+				34F4719020B568570034B371 /* NSData+DES.m in Sources */,
 				34F4718520B5675B0034B371 /* main.m in Sources */,
+				34F4719620B56CEA0034B371 /* NSString+HexData.m in Sources */,
+				34F4719320B569310034B371 /* NSData+HexString.m in Sources */,
 				34F4717720B567590034B371 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
