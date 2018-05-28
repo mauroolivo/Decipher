@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		342A0F8E20BC5B94008392B3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 342A0F8D20BC5B94008392B3 /* README.md */; };
 		34F4717720B567590034B371 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F4717620B567590034B371 /* AppDelegate.m */; };
 		34F4717A20B567590034B371 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F4717920B567590034B371 /* ViewController.m */; };
 		34F4717D20B567590034B371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F4717B20B567590034B371 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		342A0F8D20BC5B94008392B3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		34F4717220B567590034B371 /* Decipher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Decipher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F4717520B567590034B371 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		34F4717620B567590034B371 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 		34F4716920B567590034B371 = {
 			isa = PBXGroup;
 			children = (
+				342A0F8D20BC5B94008392B3 /* README.md */,
 				34F4717420B567590034B371 /* Decipher */,
 				34F4717320B567590034B371 /* Products */,
 			);
@@ -145,6 +148,7 @@
 			files = (
 				34F4718220B5675B0034B371 /* LaunchScreen.storyboard in Resources */,
 				34F4717F20B5675B0034B371 /* Assets.xcassets in Resources */,
+				342A0F8E20BC5B94008392B3 /* README.md in Resources */,
 				34F4717D20B567590034B371 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
